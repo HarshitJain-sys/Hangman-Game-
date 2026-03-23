@@ -1,6 +1,6 @@
 #Hangman Game Python
 import random
-words=("apple","orange","banana","coconut","pineapple")
+words=("apple","orange","banana","coconut","pineapple","grape","strawberry","watermelon","peach","kiwi")
 #dictionary of key():-
 hangman_art={0: ("  ",
                  "  ",
@@ -24,10 +24,10 @@ hangman_art={0: ("  ",
                  "/|\\",
                  "/ \\")}
 def dis_man(wrong_guess):
-    print("****************")
+    print("*********************")
     for line in hangman_art[wrong_guess]:
         print(line)
-    print("****************")
+    print("*********************")
 def display_hint(hint):
     print(" ".join(hint))
 def display_ans(ans):
