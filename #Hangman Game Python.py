@@ -1,5 +1,6 @@
 #Hangman Game Python
 import random
+print("Test Change")
 words=("apple","orange","banana","coconut","pineapple","grape","strawberry","watermelon","peach","kiwi")
 #dictionary of key():-
 hangman_art={0: ("  ",
